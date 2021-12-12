@@ -132,5 +132,8 @@ nav a {
     .nav-btn .sign-in {
         display: none;
     }
-    /* .header-container p {} */
+    .header-container h3 {
+        font-size: 24px;
+        font-weight: 400;
+    }
 }
