@@ -167,3 +167,14 @@ nav a {
     margin: 0;
     padding: 0;
 }
+@media screen and (max-width: 786px) {
+    .page2-container {
+        background: url(./image/page2-mobile.png);
+        background-position: 100% 0%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #1E5AF9;
+        /* background-attachment: fixed; */
+        padding: 10px 10px;
+    }
+}
