@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&family=Montserrat:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,700;0,800;1,400&family=Teko&display=swap');
 
 
 * {
@@ -25,6 +25,8 @@ a {
 }
 .header-container {
     height: 100vh;
+    position: relative;
+    margin: 0;
 }
 header {
     display: flex;
@@ -32,11 +34,12 @@ header {
     height: 100%;
     background: url(./image/Desktop\ -\ 5.png);
     background-color: #1E5AF9;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px 40px;
+    position: relative;
 }   
 nav {
     display: flex;
@@ -101,7 +104,22 @@ nav a {
     font-size: 16px;
     font-weight: 500;
 }
+.name-logo {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.name-logo h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 36px;
+    font-weight: 36px;
+}
+
 @media screen and (min-width: 968px) {
+    .header-container {
+        height: 85vh;
+    }
     .header-content p {
         width: 750px;
     }
@@ -113,7 +131,7 @@ nav a {
         background-repeat: no-repeat;
         background-size: cover;
         background-color: #1E5AF9;
-        background-attachment: fixed;
+        /* background-attachment: fixed; */
         padding: 10px 10px;
     }
     nav {
@@ -136,4 +154,16 @@ nav a {
         font-size: 30px;
         font-weight: 600;
     }
+}
+.page2-container {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background: url(./image/page2.jpg);
+    /* background-attachment: fixed; */
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
 }
