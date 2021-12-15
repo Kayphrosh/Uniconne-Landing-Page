@@ -144,9 +144,9 @@ nav a {
         font-size: 40px;
         
     }
-    nav ul {
+    /* nav ul {
         display: none;
-    }
+    } */
     .nav-btn .sign-in {
         display: none;
     }
@@ -239,5 +239,44 @@ nav a {
     }
     .feature {
        margin: 15px;
+       padding: 2rem 1rem;
+    }
+}
+.team-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    position: relative;
+    color: #0F1429;
+    height: 100%;
+    width: 100%;
+    padding: 40px 20px;
+    background-color: #1E5AF9;
+}
+.team-header {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin: 2rem 0;
+}
+.team-header h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+.uniconne-team {
+    display: flex;
+    justify-content: left;
+    column-gap: 2rem;
+}
+
+.uniconne-team img {
+    width: 320px;
+    min-width: 100%;
+}
+@media screen and (max-width: 786px) {
+    .uniconne-team div {
+        min-width: 100%;
     }
 }
