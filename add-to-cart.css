@@ -286,6 +286,7 @@ body {
     align-items: center;
     border: 1px solid #E7A818;
     height: 40px;
+    min-width: 200px;
     max-width: 240px;
     border-radius: 5px;
     padding: 0 10px;
@@ -370,7 +371,7 @@ body {
         display: flex;
         flex-direction: column;
         padding: 1rem;
-        row-gap: 20px !important;
+        row-gap: 40px !important;
     }
     .quantity {
         padding: 0 10px;
@@ -426,6 +427,15 @@ body {
     }
     .qty-charms {
         column-gap: 40px;
+    }
+    .input-name input {
+        max-width: 200px;
+    }
+    .qty-charms {
+        column-gap: 10px;
+    }
+    .dropdown button {
+        max-width: 290px;
     }
     .matching-anklet .size {
         align-items: flex-start;
