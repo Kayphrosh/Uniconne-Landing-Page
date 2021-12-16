@@ -36,6 +36,9 @@ body {
     flex-direction: column;
     row-gap: 16px;
 }
+.add-cart-header {
+    display: none;
+}
 .product-img {
     overflow: hidden;
     flex-basis: 70%;
@@ -357,7 +360,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    row-gap: 1rem;
+    row-gap: 2rem;
     margin-bottom: 3rem;
 }
 .product-total-price {
@@ -500,12 +503,13 @@ body {
     }
     .add-to-cart-container {
         flex-direction: column;
-
+        position: relative;
         margin: 0;
         padding: 0;
     }
     .product-img img {
-        height: 70vh;
+        height: 55vh;
+        border-radius: 0;
     }
     .product-description {
         margin-top: 2rem;
@@ -514,6 +518,40 @@ body {
     .add-to-cart-form {
         margin: 0;
         padding: 0;
+    }
+    .add-cart-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #ffffffbd;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    }
+    .back-to-shop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(231, 168, 24, 0.2);
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        color: #1b1c31;
+    }
+    .back-to-shop .iconify {
+        font-size: 30px;
+    }
+    .back-to-shop:hover {
+        background: transparent;
+        border: 2px solid #E7A818;
+    }
+    .product-name {
+        font-size: 24px;
+        font-weight: 600;
+        color: #1b1c31;
     }
     form {
         display: flex;
