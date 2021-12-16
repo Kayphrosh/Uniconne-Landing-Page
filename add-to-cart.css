@@ -508,7 +508,7 @@ body {
         padding: 0;
     }
     .product-img img {
-        height: 55vh;
+        height: 65vh;
         border-radius: 0;
     }
     .product-description {
@@ -555,7 +555,7 @@ body {
         color: #1b1c31;
     }
     .about-product {
-        margin-top: 54px;
+        margin-top: 52px;
     }
     form {
         display: flex;
