@@ -310,7 +310,8 @@ ul {
     max-width: 100%;
     flex-direction: column;
     row-gap: 3rem;
-    padding: 2rem 1rem;
+    column-gap: 0;
+    padding: 2rem 0.5rem;
     background: rgba(247, 247, 247, 0.201);
   }
   .feature:nth-child(2), .feature:nth-child(4) {
