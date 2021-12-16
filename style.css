@@ -261,13 +261,6 @@ ul {
   flex-direction: column;
   row-gap: 3rem;
   justify-content: center;
-  /* display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-  width: 100%;
-  grid-column-gap: 4rem;
-  grid-row-gap: 4rem;
-  justify-items: center; */
   align-items: center;
 }
 .feature {
@@ -302,6 +295,7 @@ ul {
   }
   .features-header {
     margin-bottom: 0;
+    padding: 2rem 1rem;
   }
   .features-header h3 {
     font-size: 30px;
@@ -310,6 +304,7 @@ ul {
     max-width: 100%;
     flex-direction: column;
     row-gap: 3rem;
+    padding: 2rem 1rem;
   }
   .feature:nth-child(2), .feature:nth-child(4) {
     flex-direction: column;
