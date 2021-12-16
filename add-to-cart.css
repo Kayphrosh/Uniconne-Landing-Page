@@ -524,11 +524,11 @@ body {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: .5rem;
+        padding: 5px 1rem;
         position: fixed;
         top: 0;
         width: 100%;
-        background-color: #ffffffbd;
+        background-color: #ffffffcd;
         box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
         transition: 0.4s ease;
     }
@@ -555,7 +555,7 @@ body {
         color: #1b1c31;
     }
     .about-product {
-        margin-top: 50px;
+        margin-top: 52px;
     }
     form {
         display: flex;
