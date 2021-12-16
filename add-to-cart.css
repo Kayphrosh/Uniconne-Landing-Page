@@ -524,12 +524,13 @@ body {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem;
+        padding: .5rem;
         position: fixed;
         top: 0;
         width: 100%;
         background-color: #ffffffbd;
         box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+        transition: 0.4s ease;
     }
     .back-to-shop {
         display: flex;
@@ -552,6 +553,9 @@ body {
         font-size: 24px;
         font-weight: 600;
         color: #1b1c31;
+    }
+    .about-product {
+        margin-top: 54px;
     }
     form {
         display: flex;
