@@ -300,23 +300,28 @@ ul {
   .features-header h3 {
     font-size: 30px;
   }
+  .features {
+    margin: 2rem 0;
+  }
   .feature {
     max-width: 100%;
     flex-direction: column;
     row-gap: 3rem;
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
+    background: rgba(247, 247, 247, 0.201);
   }
   .feature:nth-child(2), .feature:nth-child(4) {
     flex-direction: column;
   }
   .feature p {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 500;
-    border-top: 4px solid #005ca3;
+    /* border-top: 4px solid #005ca3; */
     padding: 30px 0px;
     margin: 0 0px;
   }
   .feature img {
+    padding: 0 3rem;
     width: 100%;
   }
 }
